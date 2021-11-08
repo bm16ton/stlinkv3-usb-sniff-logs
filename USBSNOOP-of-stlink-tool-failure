@@ -1,0 +1,304 @@
+usb-storage 1-1:1.1: USB Mass Storage device detected
+scsi host1: usb-storage 1-1:1.1
+cdc_acm 1-1:1.2: ttyACM0: USB ACM device
+scsi 1:0:0:0: Direct-Access     STM      STLINK           1.0  PQ: 0 ANSI: 2
+sd 1:0:0:0: Attached scsi generic sg9 type 0
+sd 1:0:0:0: [sdg] 80 512-byte logical blocks: (41.0 kB/40.0 KiB)
+sd 1:0:0:0: [sdg] Write Protect is off
+sd 1:0:0:0: [sdg] Mode Sense: 00 00 00 00
+sd 1:0:0:0: [sdg] Asking for cache data failed
+sd 1:0:0:0: [sdg] Assuming drive cache: write through
+sd 1:0:0:0: [sdg] Attached SCSI removable disk
+usb 1-1: USB disconnect, device number 27
+FAT-fs (sdg): unable to read boot sector to mark fs as dirty
+usb 1-1: new high-speed USB device number 28 using xhci-hcd
+usb 1-1: New USB device found, idVendor=0483, idProduct=374d, bcdDevice= 2.00
+usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+usb 1-1: Product: STM32 ST-LINK/V3
+usb 1-1: Manufacturer: STMicroelectronics
+usb 1-1: SerialNumber: 001D00335632500A20313236
+usb 1-1: USB disconnect, device number 28
+usb 1-1: new high-speed USB device number 29 using xhci-hcd
+usb 1-1: New USB device found, idVendor=0483, idProduct=374d, bcdDevice= 2.00
+usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+usb 1-1: Product: STM32 ST-LINK/V3
+usb 1-1: Manufacturer: STMicroelectronics
+usb 1-1: SerialNumber: 001D00335632500A20313236
+usb 1-1: USB disconnect, device number 29
+usb 1-1: new high-speed USB device number 30 using xhci-hcd
+usb 1-1: New USB device found, idVendor=0483, idProduct=374e, bcdDevice= 1.00
+usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+usb 1-1: Product: STLINK-V3
+usb 1-1: Manufacturer: STMicroelectronics
+usb 1-1: SerialNumber: 001D00335632500A20313236
+usb-storage 1-1:1.1: USB Mass Storage device detected
+scsi host1: usb-storage 1-1:1.1
+cdc_acm 1-1:1.2: ttyACM0: USB ACM device
+scsi 1:0:0:0: Direct-Access     STM      STLINK           1.0  PQ: 0 ANSI: 2
+sd 1:0:0:0: Attached scsi generic sg9 type 0
+sd 1:0:0:0: [sdg] 80 512-byte logical blocks: (41.0 kB/40.0 KiB)
+sd 1:0:0:0: [sdg] Write Protect is off
+sd 1:0:0:0: [sdg] Mode Sense: 00 00 00 00
+sd 1:0:0:0: [sdg] Asking for cache data failed
+sd 1:0:0:0: [sdg] Assuming drive cache: write through
+sd 1:0:0:0: [sdg] Attached SCSI removable disk
+usb 1-1: USB disconnect, device number 30
+FAT-fs (sdg): unable to read boot sector to mark fs as dirty
+usb 1-1: new high-speed USB device number 31 using xhci-hcd
+usb 1-1: New USB device found, idVendor=0483, idProduct=374d, bcdDevice= 2.00
+usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+usb 1-1: Product: STM32 ST-LINK/V3
+usb 1-1: Manufacturer: STMicroelectronics
+usb 1-1: SerialNumber: 001D00335632500A20313236
+usb 1-1: opened by process 5575: stlink-tool
+usb 1-1: usbdev_do_ioctl: CLAIMINTERFACE
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-out, length 16
+data: f1 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                  ................
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-out, actual_length 16 status 0
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaadb26b990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-in, length 6
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-in, actual_length 6 status 0
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+data: 30 00 83 04 4d 37                                                                                0...M7
+usb 1-1: reap 0000aaaadb26b990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-out, length 16
+data: fb 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                  ................
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-out, actual_length 16 status 0
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaadb26b990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-in, length 12
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-in, actual_length 12 status 0
+data: 03 00 08 03 00 00 00 00 83 04 4d 37                                                              ..........M7
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaadb26b990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-out, length 16
+data: f3 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                  ................
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-out, actual_length 16 status 0
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaadb26b990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-in, length 20
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-in, actual_length 20 status 0
+data: 00 02 53 04 45 00 00 00 33 00 1d 00 0a 50 32 56 36 32 31 20                                      ..S.E...3....P2V621
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaadb26b990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-out, length 16
+data: f5 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                  ................
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-out, actual_length 16 status 0
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaadb26b990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-in, length 2
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-in, actual_length 2 status 0
+data: 00 04                                                                                            ..
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaadb26b990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-out, length 16
+data: f3 01 00 00 47 00 05 00 00 00 00 00 00 00 00 00                                                  ....G...........
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-out, actual_length 16 status 0
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaadb26b990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-out, length 5
+data: 42 05 00 00 00                                                                                   B....
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-out, actual_length 5 status 0
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaadb26b990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-out, length 16
+data: f3 03 00 00 00 00 06 00 00 00 00 00 00 00 00 00                                                  ................
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-out, actual_length 0 status -32
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaadb26b990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-out, length 16
+data: f3 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                  ................
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaadb26b990, ep1 bulk-out, actual_length 0 status -32
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaadb26b990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: RELEASEINTERFACE
+usb 1-1: opened by process 5581: stlink-tool
+usb 1-1: usbdev_do_ioctl: CLAIMINTERFACE
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaab17c44990, ep1 bulk-out, length 16
+data: f1 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                  ................
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaab17c44990, ep1 bulk-out, actual_length 0 status -32
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaab17c44990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: RELEASEINTERFACE
+usb 1-1: USB disconnect, device number 31
+usb 1-1: new high-speed USB device number 32 using xhci-hcd
+usb 1-1: New USB device found, idVendor=0483, idProduct=374d, bcdDevice= 2.00
+usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+usb 1-1: Product: STM32 ST-LINK/V3
+usb 1-1: Manufacturer: STMicroelectronics
+usb 1-1: SerialNumber: 001D00335632500A20313236
+usb 1-1: opened by process 5594: stlink-tool
+usb 1-1: usbdev_do_ioctl: CLAIMINTERFACE
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-out, length 16
+data: f1 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                  ................
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-out, actual_length 16 status 0
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaae0102990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-in, length 6
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-in, actual_length 6 status 0
+data: 30 00 83 04 4d 37                                                                                0...M7
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaae0102990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-out, length 16
+data: fb 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                  ................
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-out, actual_length 16 status 0
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaae0102990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-in, length 12
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-in, actual_length 12 status 0
+data: 03 00 08 03 00 00 00 00 83 04 4d 37                                                              ..........M7
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaae0102990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-out, length 16
+data: f3 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                  ................
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-out, actual_length 16 status 0
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaae0102990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-in, length 20
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-in, actual_length 20 status 0
+data: 00 02 53 04 45 00 00 00 33 00 1d 00 0a 50 32 56 36 32 31 20                                      ..S.E...3....P2V621
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaae0102990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-out, length 16
+data: f5 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                  ................
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-out, actual_length 16 status 0
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaae0102990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-in, length 2
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-in, actual_length 2 status 0
+data: 00 04                                                                                            ..
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaae0102990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-out, length 16
+data: f3 01 00 00 47 00 05 00 00 00 00 00 00 00 00 00                                                  ....G...........
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-out, actual_length 16 status 0
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaae0102990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-out, length 5
+data: 42 05 00 00 00                                                                                   B....
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-out, actual_length 5 status 0
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaae0102990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-out, length 16
+data: f3 03 00 00 00 00 06 00 00 00 00 00 00 00 00 00                                                  ................
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-out, actual_length 0 status -32
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaae0102990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: SUBMITURB
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-out, length 16
+data: f3 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00                                                  ................
+usb 1-1: urb complete
+usb 1-1: userurb 0000aaaae0102990, ep1 bulk-out, actual_length 0 status -32
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: reap 0000aaaae0102990
+usb 1-1: usbdev_do_ioctl: REAPURBNDELAY
+usb 1-1: usbdev_do_ioctl: RELEASEINTERFACE
+usb 1-1: USB disconnect, device number 32
+usb 1-1: new high-speed USB device number 33 using xhci-hcd
+usb 1-1: New USB device found, idVendor=0483, idProduct=374d, bcdDevice= 2.00
+usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+usb 1-1: Product: STM32 ST-LINK/V3
+usb 1-1: Manufacturer: STMicroelectronics
+usb 1-1: SerialNumber: 001D00335632500A20313236
+usb 1-1: USB disconnect, device number 33
+usb 1-1: new high-speed USB device number 34 using xhci-hcd
+usb 1-1: New USB device found, idVendor=0483, idProduct=374e, bcdDevice= 1.00
+usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+usb 1-1: Product: STLINK-V3
+usb 1-1: Manufacturer: STMicroelectronics
+usb 1-1: SerialNumber: 001D00335632500A20313236
+usb-storage 1-1:1.1: USB Mass Storage device detected
+scsi host1: usb-storage 1-1:1.1
+cdc_acm 1-1:1.2: ttyACM0: USB ACM device
+usb 1-1: USB disconnect, device number 34
+usb 1-1: new high-speed USB device number 35 using xhci-hcd
+usb 1-1: New USB device found, idVendor=0483, idProduct=374e, bcdDevice= 1.00
+usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+usb 1-1: Product: STLINK-V3
+usb 1-1: Manufacturer: STMicroelectronics
+usb 1-1: SerialNumber: 001D00335632500A20313236
+usb-storage 1-1:1.1: USB Mass Storage device detected
+scsi host1: usb-storage 1-1:1.1
+cdc_acm 1-1:1.2: ttyACM0: USB ACM device
+scsi 1:0:0:0: Direct-Access     STM      STLINK           1.0  PQ: 0 ANSI: 2
+sd 1:0:0:0: Attached scsi generic sg9 type 0
+sd 1:0:0:0: [sdg] 80 512-byte logical blocks: (41.0 kB/40.0 KiB)
+sd 1:0:0:0: [sdg] Write Protect is off
+sd 1:0:0:0: [sdg] Mode Sense: 00 00 00 00
+sd 1:0:0:0: [sdg] Asking for cache data failed
+sd 1:0:0:0: [sdg] Assuming drive cache: write through
+sd 1:0:0:0: [sdg] Attached SCSI removable disk
+
